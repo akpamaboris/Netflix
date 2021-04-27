@@ -5,7 +5,7 @@ function App() {
   return (
     <div className="App">
       <div className="container">
-        <img class="img-logo" src={logo} />
+        <img class="img-logo" alt="netflix logo" src={logo} />
         <Section />
       </div>
     </div>
