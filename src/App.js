@@ -1,11 +1,11 @@
 import "./App.css";
 import Section from "./Section.js";
-
+import logo from "./img.png";
 function App() {
   return (
     <div className="App">
       <div className="container">
-        <h1>Netflix </h1>
+        <img class="img-logo" src={logo} />
         <Section />
       </div>
     </div>
